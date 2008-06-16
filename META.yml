@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Crypt-EAX
-version:             0.01
+version:             0.02
 abstract:            ~
 license:             ~
 author:              ~
@@ -8,8 +8,8 @@ generated_by:        ExtUtils::MakeMaker version 6.44
 distribution_type:   module
 requires:     
     Crypt::Ctr:                    0
-    Digest::CMAC:                  0.03
-    Digest::OMAC2:                 0
+    Digest::CMAC:                  0.04
+    Test::use::ok:                 0
 meta-spec:
     url:     http://module-build.sourceforge.net/META-spec-v1.3.html
     version: 1.3
